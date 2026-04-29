@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+.font-karla {
+    font-family: "Karla", sans-serif;
+}
+
+.text-day {
+    color: #FF9F00;
+}
+
+.text-night {
+    color: #6e0000;
+}
+
+.text-desc {
+    color: #222222;
+}
+
+.header {
+    background: linear-gradient(243deg, #FFF5E3 0%, rgba(255, 245, 229, 0.00) 66.68%);
+    position: relative;
+}
+
+.header-loc {
+    color: #fd0;
+    text-shadow: 0 0 7.746px rgba(221, 221, 221, 0.25);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #6e0000;
+    font-family: Karla;
+    font-size: 46.476px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.step-card {
+    box-shadow: 2px 2px 6px 0 rgba(34, 34, 34, 0.25);
+}
+
+.package-max .head {
+    background: linear-gradient(94deg, rgba(255, 159, 0, 0.50) 0%, #FF9F00 100%);
+}
+.package-med .head {
+    background: linear-gradient(94deg, rgba(255, 202, 115, 0.50) 0.12%, #FFCA73 100.12%);
+}
+.package-min .head {
+    background: linear-gradient(94deg, rgba(255, 239, 213, 0.50) 0%, #FFEFD5 100%);
+}
+
+.legality {
+    background: linear-gradient(94deg, rgba(255, 202, 115, 0.50) 0.12%, #FFCA73 100.12%);
+}
+
+
+.container {
+    height: 100%;
+    margin: 0 auto !important;
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0 25px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 740px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1200px;
+    }
+}
